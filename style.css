@@ -1,0 +1,115 @@
+body {
+
+
+	background: #003459;
+    color: #E5EFC1;
+    font-family: 'Cookie', cursive;
+    font-size: 16px;
+    font-weight: lighter;
+}
+h1,h2,h3{
+	font-family: 'Arvo', serif;
+}
+h1 {
+
+	color: #02C39A;
+	font-weight: 900;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+h2{
+	color: #028090;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	color: #FCE38A;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+a:hover{
+	color: blueviolet;
+}
+
+
+
+.container
+{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px ){
+.container{
+
+	width: 600px;
+}
+
+}
+
+@media (max-width: 500px){
+.container{
+
+	width: 400px;
+}
+
+}
+
+.box-white
+{
+  background-color: black;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 1.0) ;
+  border-radius: 4px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.img-circle{
+
+	border-radius: 50%;
+}
+
+.bleu-btn{
+
+	background-color:#003459 ;
+	padding: 15px 20px;
+	border-radius: 4px ;
+}
+
+.bleu-btn:hover{
+background-color: black;
+color: whitesmoke;
+
+}
+
+.liste-inline{
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+.liste-inline li{
+
+	display: inline;
+	padding:10px ;
+}
+
+.liste-inline i {
+	font-size: 50px;
+	color:  rgb(230, 230, 230);
+}
+
+.liste-inline i:hover{
+
+	color:#003459 ;
+}
+
+#introduction p 
+{margin-bottom: 40px;
+
+}
